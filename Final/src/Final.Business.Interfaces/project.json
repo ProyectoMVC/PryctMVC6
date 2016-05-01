@@ -1,6 +1,6 @@
 ﻿{
     "version": "1.0.0-*",
-    "description": "Final.DataAccess Class Library",
+    "description": "Final.Business.Interfaces Class Library",
     "authors": [ "bestrada" ],
     "tags": [ "" ],
     "projectUrl": "",
@@ -18,15 +18,9 @@
         },
         "dnxcore50": { }
     },
+
     "dependencies": {
         "Final.Entities": "1.0.0-*",
-        "EntityFramework.Commands": "7.0.0-rc1-final",
-        "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-        "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-        "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
-    },
-
-    "commands": {
-        "ef": "EntityFramework.Commands"
+        "EntityFramework.Commands": "7.0.0-rc1-final"
     }
 }

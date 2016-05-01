@@ -18,6 +18,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Final.DataAccess", "src\Fin
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Final.Business", "src\Final.Business\Final.Business.xproj", "{6EAB5E18-EB52-4753-8539-DBC64E8DF1C9}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Final.WebManag", "src\Final.WebManag\Final.WebManag.xproj", "{15063E68-99C7-41FD-8AAF-5ED4B1090519}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Final.Business.Interfaces", "src\Final.Business.Interfaces\Final.Business.Interfaces.xproj", "{C34C5147-3936-45B7-B445-01BBF0CDEFC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,14 @@ Global
 		{6EAB5E18-EB52-4753-8539-DBC64E8DF1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAB5E18-EB52-4753-8539-DBC64E8DF1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAB5E18-EB52-4753-8539-DBC64E8DF1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15063E68-99C7-41FD-8AAF-5ED4B1090519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15063E68-99C7-41FD-8AAF-5ED4B1090519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15063E68-99C7-41FD-8AAF-5ED4B1090519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15063E68-99C7-41FD-8AAF-5ED4B1090519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34C5147-3936-45B7-B445-01BBF0CDEFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34C5147-3936-45B7-B445-01BBF0CDEFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34C5147-3936-45B7-B445-01BBF0CDEFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34C5147-3936-45B7-B445-01BBF0CDEFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +61,7 @@ Global
 		{5521409D-A433-4671-B431-C16F1A42D80C} = {D37869E8-153D-4270-A218-CBDD0A3EBCA5}
 		{5DC69CB9-AC22-463B-80FD-831327926757} = {D37869E8-153D-4270-A218-CBDD0A3EBCA5}
 		{6EAB5E18-EB52-4753-8539-DBC64E8DF1C9} = {D37869E8-153D-4270-A218-CBDD0A3EBCA5}
+		{15063E68-99C7-41FD-8AAF-5ED4B1090519} = {D37869E8-153D-4270-A218-CBDD0A3EBCA5}
+		{C34C5147-3936-45B7-B445-01BBF0CDEFC8} = {D37869E8-153D-4270-A218-CBDD0A3EBCA5}
 	EndGlobalSection
 EndGlobal
