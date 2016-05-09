@@ -41,5 +41,6 @@ namespace Final.Entities
         public DateTime FechaRegistro { get; set; }
         public DateTime FechaModificacion { get; set; }
         public bool FlagAnulado { get; set; }
+
     }
 }
