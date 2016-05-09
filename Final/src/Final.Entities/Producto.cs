@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -23,8 +24,8 @@ namespace Final.Entities
         [MaxLength(100, ErrorMessage = "El campo no debe exceder los 100 caracteres.")]
         public string Descripcion { get; set; }
 
-        [Display(Name = "Categoría producto")]
-        public string NombreCategoria { get; set; }
+        [ForeignKey("Categoria")]
+        public int IdCategoria { get; set; }
 
         [Display(Name = "Precio de venta")]
         [Required(ErrorMessage = "Debe ingresar el campo precio.")]
@@ -37,10 +38,10 @@ namespace Final.Entities
 
         public DateTime FechaRegistro { get; set; }
 
-        public DateTime FechaModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
         public bool FlagAnulado { get; set; }
 
-        public virtual Categoria IdCategoria { get; set; }
+        public virtual Categoria Categoria { get; set; }
     }
 }

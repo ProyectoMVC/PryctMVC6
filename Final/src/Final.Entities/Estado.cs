@@ -16,7 +16,8 @@ namespace Final.Entities
         [Required(ErrorMessage = "Debe ingresar el campo estado")]
         public string NombreEstado { get; set; }
         public DateTime FechaRegistro { get; set; }
-        public DateTime FechaModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
         public bool FlagAnulado { get; set; }
+        public virtual ICollection<Pedido> Pedido { get; set; }
     }
 }

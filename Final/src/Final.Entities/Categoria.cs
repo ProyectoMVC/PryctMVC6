@@ -16,7 +16,8 @@ namespace Final.Entities
         [Required(ErrorMessage = "Debe ingresar el campo Categoría")]
         public string NombreCategoria { get; set; }
         public DateTime FechaRegistro { get; set; }
-        public DateTime FechaModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
         public bool FlagAnulado { get; set; }
+        public virtual ICollection<Producto> Producto { get; set; }
     }
 }

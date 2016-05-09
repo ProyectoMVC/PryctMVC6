@@ -39,8 +39,9 @@ namespace Final.Entities
         [MaxLength(100, ErrorMessage = "El campo dirección no debe exceder los 100 caracteres")]
         public string Direccion { get; set; }
         public DateTime FechaRegistro { get; set; }
-        public DateTime FechaModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
         public bool FlagAnulado { get; set; }
+        public virtual ICollection<Pedido> Pedido { get; set; }
 
     }
 }
