@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Final.Entities
 {
-    public class Categoria
+    public class Estado
     {
         [Key]
-        public int IdCategoria { get; set; }
+        public int IdEstado { get; set; }
 
-        [Display(Name = "Categoría")]
-        [MaxLength(20, ErrorMessage = "No debe exceder los 20 caracteres")]
-        [Required(ErrorMessage = "Debe ingresar el campo Categoría")]
-        public string NombreCategoria { get; set; }
+        [Display(Name = "Estado")]
+        [MaxLength(20, ErrorMessage = "El campo nombre no debe pasar 20 caracteres")]
+        [Required(ErrorMessage = "Debe ingresar el campo estado")]
+        public string NombreEstado { get; set; }
         public DateTime FechaRegistro { get; set; }
         public DateTime FechaModificacion { get; set; }
         public bool FlagAnulado { get; set; }

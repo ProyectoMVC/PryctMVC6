@@ -14,12 +14,12 @@ namespace Final.Entities
         public int IdProducto { get; set; }
 
         [Display(Name = "Nombre producto")]
-        [Required(ErrorMessage = "Debe ingresar el campo number.")]
-        [MaxLength(25, ErrorMessage = "El campo Nombre producto debe exceder los 25 caracteres.")]
+        [Required(ErrorMessage = "Debe ingresar el campo nombre producto")]
+        [MaxLength(25, ErrorMessage = "El campo Nombre producto debe exceder los 25 caracteres")]
         public string NombreProducto { get; set; }
 
         [Display(Name = "Descripción producto")]
-        [Required(ErrorMessage = "Debe ingresar el campo number.")]
+        [Required(ErrorMessage = "Debe ingresar el campo descripción producto")]
         [MaxLength(100, ErrorMessage = "El campo no debe exceder los 100 caracteres.")]
         public string Descripcion { get; set; }
 
@@ -41,7 +41,6 @@ namespace Final.Entities
 
         public bool FlagAnulado { get; set; }
 
-        [Display(Name = "Categoría producto")]
         public virtual Categoria IdCategoria { get; set; }
     }
 }
